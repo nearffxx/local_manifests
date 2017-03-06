@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="goldfish-kernel" fetch="https://android.googlesource.com/" /> 
+  <project path="kernel/goldfish" name="kernel/goldfish" revision="android-goldfish-3.4" remote="goldfish-kernel" />
 
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/asus/flo-kernel" />
