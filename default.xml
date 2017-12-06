@@ -12,7 +12,7 @@
   <project path="external/mesa3d" name="peyo-hd/external_mesa3d" revision="ibox" remote="github"/>
   <project path="hardware/drm_gralloc" name="peyo-hd/hardware_drm_gralloc" revision="master" remote="github"/>
   <project path="hardware/drm_hwcomposer" name="peyo-hd/hardware_drm_hwcomposer" revision="master" remote="github"/>
-  <project path="device/brcm/rpi2" name="peyo-hd/device_brcm_rpi2" revision="lollipop" remote="github"/>
+  <project path="device/brcm/rpi2" name="nearffxx/device_brcm_rpi2" revision="dev" remote="github"/>
 
 
   <remove-project name="device/asus/flo-kernel" />
