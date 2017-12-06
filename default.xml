@@ -3,6 +3,9 @@
   <remote name="fdo" fetch="http://anongit.freedesktop.org/git" />
   <remote name="github" fetch="http://github.com"/>
 
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/mesa3d"/>
+
   <project path="external/drm" name="mesa/drm" revision="e2acca4e40c87b00af75a5ffedafc26a099b657c" remote="fdo"/>
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
   <project path="external/tinyalsa" name="peyo-hd/external_tinyalsa" revision="nbox" remote="github" />
@@ -11,8 +14,6 @@
   <project path="hardware/drm_hwcomposer" name="peyo-hd/hardware_drm_hwcomposer" revision="master" remote="github"/>
   <project path="device/brcm/rpi2" name="peyo-hd/device_brcm_rpi2" revision="lollipop" remote="github"/>
 
-  <remove-project name="platform/external/tinyalsa" />
-  <remove-project name="platform/external/mesa3d"/>
 
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/lge/hammerhead-kernel" />
